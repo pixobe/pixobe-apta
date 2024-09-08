@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Title: Business home
+ * Title: Pixobe Home
  * Slug: apta/page-home
  * Categories: apta_page
  * Keywords: starter

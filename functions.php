@@ -1,27 +1,35 @@
 <?php
 
-function print_post_meta_shortcode($atts)
-{
-    $atts = shortcode_atts(
-        array(
-            'meta_key' => '',
-        ),
-        $atts
-    );
-    $post_id = get_the_ID();
 
-    if ($atts['meta_key'] && $post_id) {
-        $meta_value = get_post_meta($post_id, $atts['meta_key'], true);
+if (! function_exists('pixobeapta_block_stylesheets')) :
+    /**
+     * Enqueue custom block stylesheets
+     *
+     * @since Twenty Twenty-Four 1.0
+     * @return void
+     */
+    function pixobeapta_block_stylesheets()
+    {
 
-        if (!empty($meta_value)) {
-            return esc_html($meta_value);
-        } else {
-            return 'Meta key not found or empty for this post.';
-        }
-    } else {
-        return 'Please provide a valid meta key.';
+        error_log("enguqueueuee" . get_parent_theme_file_uri('assets/css/button.css'));
+        /**
+         * The wp_enqueue_block_style() function allows us to enqueue a stylesheet
+         * for a specific block. These will only get loaded when the block is rendered
+         * (both in the editor and on the front end), improving performance
+         * and reducing the amount of data requested by visitors.
+         *
+         * See https://make.wordpress.org/core/2021/12/15/using-multiple-stylesheets-per-block/ for more info.
+         */
+        wp_enqueue_block_style(
+            'core/button',
+            array(
+                'handle' => 'pixobeapta-button-style',
+                'src'    => get_parent_theme_file_uri('assets/css/button.css'),
+                'ver'    => wp_get_theme(get_template())->get('Version'),
+                'path'   => get_parent_theme_file_path('assets/css/button.css'),
+            )
+        );
     }
-}
+endif;
 
-// Register the shortcode [print_meta meta_key="your_meta_key"]
-add_shortcode('print_meta', 'print_post_meta_shortcode');
+add_action('init', 'pixobeapta_block_stylesheets');
