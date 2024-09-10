@@ -16,7 +16,7 @@
     <h2 class="wp-block-heading has-text-align-center has-base-2-color has-text-color has-link-color has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--10)"></h2>
     <!-- /wp:heading -->
 
-    <!-- wp:heading {"textAlign":"center","level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}},"textColor":"base-2","fontSize":"medium"} -->
+    <!-- wp:heading {"textAlign":"center","level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}},"typography":{"fontFamily":"body"}}},"textColor":"base-2","fontSize":"medium"} -->
     <h3 class="wp-block-heading has-text-align-center has-base-2-color has-text-color has-link-color has-medium-font-size" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--10)"></h3>
     <!-- /wp:heading -->
 

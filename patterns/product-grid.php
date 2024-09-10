@@ -12,7 +12,7 @@
 
 <!-- wp:group {"align":"full"} -->
 <div class="wp-block-group alignfull">
-    <!-- wp:columns {"align":"wide"} -->
+    <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0","left":"0"}}}} -->
     <div class="wp-block-columns alignwide">
         <!-- wp:column {"width":"50%"} -->
         <div class="wp-block-column" style="flex-basis:50%">
