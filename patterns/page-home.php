@@ -12,4 +12,9 @@
  */
 ?>
 
-<!-- wp:pattern {"slug":"apta/banner-hero"} /-->
+<!-- wp:group {"align":"full"} -->
+<div class="wp-block-group alignfull">
+    <!-- wp:pattern {"slug":"apta/banner-hero"} /-->
+    <!-- wp:pattern {"slug":"apta/product-grid"} /-->
+</div>
+<!-- /wp:group -->
