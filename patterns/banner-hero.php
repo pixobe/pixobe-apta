@@ -14,20 +14,21 @@
 		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
-		<!-- wp:site-title {"textAlign":"center"} /-->
+		<!-- wp:site-title {"textAlign":"center", "fontFamily":"heading","fontSize":"xx-large","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}}} /-->
 
 		<!-- wp:spacer {"height":"25px"} -->
 		<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
-		<!-- wp:site-tagline {"textAlign":"center"} /-->
+		<!-- wp:site-tagline {"textAlign":"center","level":2,"fontSize":"medium","fontFamily":"body","style":{"typography":{"fontStyle":"normal"}}} /-->
 
 		<!-- wp:spacer {"height":"25px"} -->
 		<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-		<div class="wp-block-buttons"><!-- wp:button -->
+		<div class="wp-block-buttons">
+			<!-- wp:button -->
 			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Explore</a></div>
 			<!-- /wp:button -->
 		</div>

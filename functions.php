@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Enqueue block stylesheets.
+ */
 
 if (! function_exists('pixobeapta_block_stylesheets')) :
     /**
@@ -10,8 +13,6 @@ if (! function_exists('pixobeapta_block_stylesheets')) :
      */
     function pixobeapta_block_stylesheets()
     {
-
-        error_log("enguqueueuee" . get_parent_theme_file_uri('assets/css/button.css'));
         /**
          * The wp_enqueue_block_style() function allows us to enqueue a stylesheet
          * for a specific block. These will only get loaded when the block is rendered
@@ -23,7 +24,7 @@ if (! function_exists('pixobeapta_block_stylesheets')) :
         wp_enqueue_block_style(
             'core/button',
             array(
-                'handle' => 'pixobeapta-button-style',
+                'handle' => 'pixobeapta-button-style-outline',
                 'src'    => get_parent_theme_file_uri('assets/css/button.css'),
                 'ver'    => wp_get_theme(get_template())->get('Version'),
                 'path'   => get_parent_theme_file_path('assets/css/button.css'),

@@ -1,7 +1,21 @@
-.wp-block-button {
+.wp-block-button
+  > .wp-block-button__link:not(.has-text-color, .has-background):hover {
   background-color: var(
     --wp--preset--color--accent-2,
     var(--wp--preset--color--accent, transparent)
   );
-  color: var(--wp--preset--color--base-2);
+  color: var(--wp--preset--color--base);
+}
+
+.wp-block-button.is-style-outline
+  > .wp-block-button__link:not(.has-text-color, .has-background):hover {
+  background-color: var(
+    --wp--preset--color--accent-2,
+    var(--wp--preset--color--accent, transparent)
+  );
+  color: var(--wp--preset--color--base);
+  border-color: var(
+    --wp--preset--color--accent-2,
+    var(--wp--preset--color--accent, currentColor)
+  );
 }

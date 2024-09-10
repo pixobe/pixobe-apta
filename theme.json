@@ -129,7 +129,7 @@
           "slug": "contrast-3"
         },
         {
-          "color": "#0ea5e9",
+          "color": "#60a5fa",
           "name": "Accent",
           "slug": "accent"
         },
@@ -190,7 +190,7 @@
               "fontFamily": "Inter",
               "fontStretch": "normal",
               "fontStyle": "normal",
-              "fontWeight": "300 900",
+              "fontWeight": "400 600",
               "src": [
                 "file:./assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2"
               ]
@@ -205,9 +205,17 @@
             {
               "fontFamily": "Garamond",
               "fontStyle": "normal",
-              "fontWeight": "300 900",
+              "fontWeight": "400",
               "src": [
-                "file:./assets/fonts/EB_Garamond/EBGaramond-VariableFont_slnt,wght.woff2"
+                "file:./assets/fonts/EB_Garamond/static/EBGaramond-Regular.ttf"
+              ]
+            },
+            {
+              "fontFamily": "Garamond",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": [
+                "file:./assets/fonts/EB_Garamond/static/EBGaramond-Medium.ttf"
               ]
             }
           ],
@@ -236,16 +244,16 @@
         {
           "fluid": false,
           "name": "Medium",
-          "size": "1.05rem",
+          "size": "1.0rem",
           "slug": "medium"
         },
         {
           "fluid": {
-            "max": "1.85rem",
+            "max": "1.5rem",
             "min": "1.39rem"
           },
           "name": "Large",
-          "size": "1.85rem",
+          "size": "1.5rem",
           "slug": "large"
         },
         {
@@ -279,10 +287,22 @@
         }
       },
       "core/button": {
+        "color": {
+          "background": "var(--wp--preset--color--accent)",
+          "text": "var(--wp--preset--color--base-2)"
+        },
+        "border": {
+          "radius": "24px"
+        },
+        "css": ".wp-block-button:hover{background-color: var(--wp--preset--color--base);}",
         "variations": {
           "outline": {
             "border": {
-              "width": "1px"
+              "width": "1px",
+              "color": "var(--wp--preset--color--accent)"
+            },
+            "color": {
+              "text": "var(--wp--preset--color--accent)"
             },
             "spacing": {
               "padding": {
@@ -291,6 +311,13 @@
                 "right": "calc(1rem - 1px)",
                 "top": "calc(0.6rem - 1px)"
               }
+            }
+          }
+        },
+        "elements": {
+          "link": {
+            "color": {
+              "text": "var(--wp--preset--color--contrast)"
             }
           }
         }
@@ -361,7 +388,7 @@
         "typography": {
           "fontSize": "var(--wp--preset--font-size--small)",
           "fontStyle": "normal",
-          "fontWeight": "600"
+          "fontWeight": "400"
         }
       },
       "core/comment-content": {
@@ -758,7 +785,7 @@
       "background": "var(--wp--preset--color--base-2)",
       "text": "var(--wp--preset--color--contrast)"
     },
-    "css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}:where(.wp-site-blocks) > *{margin-block-start: 0;}",
+    "css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}:where(.wp-site-blocks) > main{margin-block-start: 0;}",
     "elements": {
       "button": {
         ":active": {
@@ -823,7 +850,8 @@
       "h1": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--xx-large)",
-          "lineHeight": "1.15"
+          "lineHeight": "1.15",
+          "letterSpacing": "0.15rem"
         }
       },
       "h2": {
