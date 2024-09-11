@@ -8,10 +8,12 @@
  * Description: A hero section with a title, a paragraph, a CTA button, and an image.
  */
 ?>
-<!-- wp:group {"metadata":{"categories":["apta_page"],"patternName":"apta/page-home","name":"Business home"},"align":"full","className":"has-base-background-color has-background","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained","contentSize":"","wideSize":""}} -->
+<!-- wp:group {"metadata":{"categories":["apta_page"],"patternName":"apta/banner-hero","name":"Hero"},"align":"full","className":"has-base-background-color has-background","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained","contentSize":"","wideSize":""}} -->
 <div class="wp-block-group alignfull has-base-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"constrained","contentSize":"565px"}} -->
-	<div class="wp-block-group"><!-- wp:spacer {"height":"50px"} -->
-		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+	<div class="wp-block-group">
+
+		<!-- wp:spacer {"height":"100px"} -->
+		<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
 		<!-- wp:site-title {"textAlign":"center", "fontFamily":"heading","fontSize":"xx-large","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}}} /-->
@@ -36,8 +38,8 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:spacer {"height":"50px","style":{"layout":[]}} -->
-	<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- wp:spacer {"height":"100px","style":{"layout":[]}} -->
+	<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 </div>
 <!-- /wp:group -->

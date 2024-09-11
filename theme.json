@@ -798,7 +798,7 @@
       "background": "var(--wp--preset--color--base-2)",
       "text": "var(--wp--preset--color--contrast)"
     },
-    "css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}:where(.wp-site-blocks) > main{margin-block-start: 0;}",
+    "css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}:where(.wp-site-blocks) > *{margin-block-start: 0;margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 0;}",
     "elements": {
       "button": {
         ":active": {

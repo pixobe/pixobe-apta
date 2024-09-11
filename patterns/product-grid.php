@@ -10,7 +10,7 @@
 ?>
 
 
-<!-- wp:group {"align":"full"} -->
+<!-- wp:group {"align":"full","layout":{"type":"default","contentSize":"","wideSize":""}} -->
 <div class="wp-block-group alignfull">
     <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0","left":"0"}}}} -->
     <div class="wp-block-columns alignwide">
