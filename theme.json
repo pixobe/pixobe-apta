@@ -119,21 +119,23 @@
           "name": "Base / Two",
           "slug": "base-2"
         },
+
         {
-          "color": "#1e1e1e",
+          "color": "#000000",
           "name": "Contrast",
           "slug": "contrast"
         },
         {
           "color": "#252525",
+          "name": "Contrast / One",
+          "slug": "contrast-1"
+        },
+        {
+          "color": "#868686",
           "name": "Contrast / Two",
           "slug": "contrast-2"
         },
-        {
-          "color": "#A4A4A4",
-          "name": "Contrast / Three",
-          "slug": "contrast-3"
-        },
+
         {
           "color": "#60a5fa",
           "name": "Accent",
@@ -143,6 +145,11 @@
           "color": "#3b82f6",
           "name": "Accent / Two",
           "slug": "accent-2"
+        },
+        {
+          "color": "#ea580c",
+          "name": "Accent / Three",
+          "slug": "accent-3"
         }
       ]
     },
@@ -250,7 +257,7 @@
         {
           "fluid": false,
           "name": "Medium",
-          "size": "1.05rem",
+          "size": "1rem",
           "slug": "medium"
         },
         {

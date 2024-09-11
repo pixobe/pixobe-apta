@@ -20,7 +20,7 @@
 		<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
-		<!-- wp:site-tagline {"textAlign":"center","level":2,"fontSize":"medium","fontFamily":"body","style":{"typography":{"fontStyle":"normal"}}} /-->
+		<!-- wp:site-tagline {"textAlign":"center","level":2,"fontSize":"large","fontFamily":"body","style":{"typography":{"fontStyle":"normal"}}} /-->
 
 		<!-- wp:spacer {"height":"25px"} -->
 		<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>

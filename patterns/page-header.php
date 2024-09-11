@@ -3,31 +3,28 @@
 /**
  * Title: Page Header
  * Slug: apta/page-header
- * Categories: headers
+ * Categories: banner
  * Viewport width: 1400
  * Description: Single Page Header
  */
 
 ?>
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}}} -->
-<div
-    class="wp-block-group"
-    style="
-        padding-top: var(--wp--preset--spacing--50);
-        padding-right: var(--wp--preset--spacing--50);
-        padding-bottom: var(--wp--preset--spacing--50);
-        padding-left: var(--wp--preset--spacing--50);
-      ">
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:spacer {"height":"50px"} -->
+    <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+
     <!-- wp:post-title {"textAlign":"center","level":1} /-->
-    <?php
-    $post_id = get_the_ID();
-    $meta_value = get_post_meta($post_id, $atts['meta_key'], true);
 
-    if (!empty($meta_value)) {
-        echo esc_html($meta_value);
-    }
+    <!-- wp:heading {"textAlign":"center","level":"2","style":{"typography":{"fontFamily":"body"}}} -->
+    <h2 class="wp-block-heading has-body-font-family has-medium-font-size has-text-align-center">
+        <?php echo esc_html(get_post_meta(get_the_ID(), "tagline", true)); ?>
+    </h2>
+    <!-- /wp:heading -->
 
-    ?>
+    <!-- wp:spacer {"height":"50px"} -->
+    <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
 </div>
 <!-- /wp:group -->

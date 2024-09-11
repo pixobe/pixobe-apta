@@ -8,8 +8,8 @@
  * Description: A Footer with logo, title and tag line.
  */
 ?>
-<!-- wp:group {"backgroundColor":"contrast-2","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-contrast-2-background-color has-background"><!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"textColor":"base","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<!-- wp:group {"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-contrast-background-color has-background"><!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"textColor":"base","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
     <div class="wp-block-group has-base-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:site-logo {"width":72} /-->
 
         <!-- wp:site-title {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} /-->

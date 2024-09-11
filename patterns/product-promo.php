@@ -7,7 +7,7 @@
  * Description: A Header, tag line and image that blends
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"contrast","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<!-- wp:group {"metadata":{"categories":["products","cards"],"patternName":"apta/product-full","name":"Product Full"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"contrast","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group has-contrast-background-color has-background" style="margin-top:0;margin-bottom:0"><!-- wp:spacer {"height":"0px","style":{"layout":{"selfStretch":"fixed","flexSize":"50px"}}} -->
     <div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
