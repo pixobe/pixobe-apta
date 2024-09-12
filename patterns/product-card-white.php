@@ -1,22 +1,22 @@
 <?php
 
 /**
- * Title: Product Card
- * Slug: apta/product-card
+ * Title: Product Card White
+ * Slug: apta/product-card-white
  * Categories: products, cards
  * Description: A Header, tag line and image that blends
  */
 ?>
 
-<!-- wp:group {"className":"has-background has-contrast-background-color has-text-color has-base-color","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
-<div class="wp-block-group has-background has-contrast-background-color has-text-color has-base-color"><!-- wp:spacer {"height":"50px"} -->
+<!-- wp:group {"className":"has-background has-base-2-background-color has-text-color has-contrast-color","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
+<div class="wp-block-group has-background has-base-2-background-color has-text-color has-contrast-2-color"><!-- wp:spacer {"height":"50px"} -->
     <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
     <!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-group">
-        <!-- wp:heading {"className":"has-text-color has-base-color"} -->
-        <h2 class="wp-block-heading has-text-color has-base-color">
+        <!-- wp:heading {"className":"has-text-color has-contrast-color"} -->
+        <h2 class="wp-block-heading has-text-color has-contrast-color">
             Product Title
         </h2>
         <!-- /wp:heading -->
@@ -25,8 +25,8 @@
 
     <!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-group">
-        <!-- wp:heading {"level":3,"className":"has-base-color","textColor":"base-2","fontSize":"large"} -->
-        <h3 class="wp-block-heading has-base-color has-base-2-color has-text-color has-large-font-size">
+        <!-- wp:heading {"level":3,"className":" has-text-color has-contrast-color","textColor":"contrast","fontSize":"large"} -->
+        <h3 class="wp-block-heading has-text-color has-contrast-color has-large-font-size">
             Product Tag Line
         </h3>
         <!-- /wp:heading -->

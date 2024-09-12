@@ -22,7 +22,7 @@
 
         <!-- wp:column {"width":"50%"} -->
         <div class="wp-block-column" style="flex-basis:50%">
-            <!-- wp:pattern {"slug":"apta/product-card"} /-->
+            <!-- wp:pattern {"slug":"apta/product-card-white"} /-->
         </div>
         <!-- /wp:column -->
     </div>
