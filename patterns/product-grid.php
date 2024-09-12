@@ -16,13 +16,13 @@
     <div class="wp-block-columns alignwide">
         <!-- wp:column {"width":"50%"} -->
         <div class="wp-block-column" style="flex-basis:50%">
-            <!-- wp:pattern {"slug":"apta/product-promo"} /-->
+            <!-- wp:pattern {"slug":"apta/product-card"} /-->
         </div>
         <!-- /wp:column -->
 
         <!-- wp:column {"width":"50%"} -->
         <div class="wp-block-column" style="flex-basis:50%">
-            <!-- wp:pattern {"slug":"apta/product-promo"} /-->
+            <!-- wp:pattern {"slug":"apta/product-card"} /-->
         </div>
         <!-- /wp:column -->
     </div>

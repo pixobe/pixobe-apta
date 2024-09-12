@@ -6,7 +6,6 @@
   );
   color: var(--wp--preset--color--base);
 }
-
 .wp-block-button.is-style-outline
   > .wp-block-button__link:not(.has-text-color, .has-background):hover {
   background-color: var(
@@ -18,4 +17,20 @@
     --wp--preset--color--accent-2,
     var(--wp--preset--color--accent, currentColor)
   );
+}
+
+.wp-block-button.wp-button-contrast {
+  background-color: var(
+    --wp--preset--color--contrast-2,
+    var(--wp--preset--color--contrast, transparent)
+  );
+  color: var(--wp--preset--color--base);
+}
+.wp-block-button.wp-button-contrast
+  > .wp-block-button__link:not(.has-text-color, .has-background):hover {
+  background-color: var(
+    --wp--preset--color--contrast-2,
+    var(--wp--preset--color--contrast, transparent)
+  );
+  color: var(--wp--preset--color--base);
 }
