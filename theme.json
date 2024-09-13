@@ -11,7 +11,8 @@
     "product-card",
     "product-grid",
     "banner-hero",
-    "page-header"
+    "page-header",
+    "product-tile"
   ],
   "settings": {
     "appearanceTools": true,
@@ -110,7 +111,7 @@
       ],
       "palette": [
         {
-          "color": "#F5F5F5",
+          "color": "#F5F5F7",
           "name": "Base",
           "slug": "base"
         },
@@ -119,23 +120,32 @@
           "name": "Base / Two",
           "slug": "base-2"
         },
+        {
+          "color": "#c4c5d0",
+          "name": "Base / Three",
+          "slug": "base-3"
+        },
 
         {
-          "color": "#000000",
+          "color": "#1e1e1e",
           "name": "Contrast",
           "slug": "contrast"
         },
         {
-          "color": "#252525",
+          "color": "#060023",
           "name": "Contrast / One",
           "slug": "contrast-1"
         },
         {
-          "color": "#868686",
+          "color": "#353e43",
           "name": "Contrast / Two",
           "slug": "contrast-2"
         },
-
+        {
+          "color": "#868686",
+          "name": "Contrast / Three",
+          "slug": "contrast-3"
+        },
         {
           "color": "#60a5fa",
           "name": "Accent",
@@ -299,6 +309,7 @@
           "radius": "90px"
         }
       },
+
       "core/button": {
         "border": {
           "radius": "24px"
@@ -771,6 +782,16 @@
         },
         "typography": {
           "fontSize": "var(--wp--preset--font-size--small)"
+        }
+      },
+      "core/paragraph": {
+        "color": {
+          "text": "var(--wp--preset--color--contrast-2)"
+        },
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--medium)",
+          "fontWeight": "400",
+          "lineHeight": "1.875rem"
         }
       },
       "core/site-title": {

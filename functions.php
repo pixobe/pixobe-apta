@@ -24,7 +24,7 @@ if (! function_exists('pixobeapta_block_stylesheets')) :
         wp_enqueue_block_style(
             'core/button',
             array(
-                'handle' => 'pixobeapta-button-style-outline',
+                'handle' => 'pixobeapta-outline-button-style',
                 'src'    => get_parent_theme_file_uri('assets/css/button.css'),
                 'ver'    => wp_get_theme(get_template())->get('Version'),
                 'path'   => get_parent_theme_file_path('assets/css/button.css'),
