@@ -1,11 +1,12 @@
 <?php
 
 /**
- * Title: Page Header
- * Slug: apta/page-header
+ * Title: Archive Header
+ * Slug: apta/archive-header
  * Categories: Headers
  * Viewport width: 1400
- * Description: Single Page Header
+ * Block Types: pixobe/header
+ * Description: Category Post Header
  */
 
 ?>
@@ -17,13 +18,9 @@
     <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
-    <!-- wp:post-title {"textAlign":"center","level":1} /-->
+    <!-- wp:query-title {"type":"archive","showPrefix":false , "textAlign":"center","level":1} /-->
 
-    <!-- wp:heading {"textAlign":"center","level":"2","style":{"typography":{"fontFamily":"body"}}} -->
-    <h2 class="wp-block-heading has-body-font-family has-large-font-size has-text-align-center">
-        <?php echo esc_html(get_post_meta(get_the_ID(), "tagline", true)); ?>
-    </h2>
-    <!-- /wp:heading -->
+    <!-- wp:term-description {"textAlign":"center","level":2 } /-->
 
     <!-- wp:spacer {"height":"25px"} -->
     <div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>

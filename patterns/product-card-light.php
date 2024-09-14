@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Title: Product Card White
- * Slug: apta/product-card-white
+ * Title: Product Card Light
+ * Slug: apta/product-card-light
  * Categories: products, cards
  * Description: A Header, tag line and image that blends
  */
@@ -17,7 +17,7 @@
     <div class="wp-block-group">
         <!-- wp:heading {"className":"has-text-color has-contrast-color"} -->
         <h2 class="wp-block-heading has-text-color has-contrast-color">
-            Product Title
+            Product Title Here
         </h2>
         <!-- /wp:heading -->
     </div>

@@ -3,7 +3,7 @@
 /**
  * Title: Post Header
  * Slug: apta/post-header
- * Categories: banner
+ * Categories: Headers
  * Viewport width: 1400
  * Description: Single Post Header
  */
@@ -16,10 +16,10 @@
     <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
-    <!-- wp:post-title {"textAlign":"left","level":1} /-->
+    <!-- wp:post-title {"textAlign":"left","level":1 , "fontSize":"x-large"} /-->
 
-    <!-- wp:spacer {"height":"25px"} -->
-    <div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- wp:spacer {"height":"8px"} -->
+    <div style="height:8px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 </div>
 <!-- /wp:group -->

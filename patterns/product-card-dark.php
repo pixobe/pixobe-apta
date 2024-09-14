@@ -2,7 +2,7 @@
 
 /**
  * Title: Product Card
- * Slug: apta/product-card
+ * Slug: apta/product-card-dark
  * Categories: products, cards
  * Description: A Header, tag line and image that blends
  */
