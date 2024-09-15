@@ -16,7 +16,7 @@
     <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
-    <!-- wp:post-title {"textAlign":"left","level":1 , "fontSize":"x-large"} /-->
+    <!-- wp:post-title {"textAlign":"left","level":1 , "fontSize":"x-large" , "style":{"typography":{"fontWeight":"400"}}} /-->
 
     <!-- wp:spacer {"height":"8px"} -->
     <div style="height:8px" aria-hidden="true" class="wp-block-spacer"></div>
