@@ -46,6 +46,11 @@
           "colors": ["#565656", "#565656"],
           "name": "Black and pastel blue",
           "slug": "duotone-5"
+        },
+        {
+          "colors": ["#FFFFFF", "#F5F5F7"],
+          "name": "Base",
+          "slug": "duotone-6"
         }
       ],
       "gradients": [
