@@ -1,20 +1,12 @@
 {
   "customTemplates": [
     {
-      "name": "page-no-title",
-      "postTypes": ["page", "posts"],
-      "title": "Page No Title"
+      "name": "category-blog",
+      "postTypes": ["blog", "posts"],
+      "title": "Blog"
     }
   ],
-  "patterns": [
-    "product-card-white",
-    "product-card",
-    "product-grid",
-    "banner-hero",
-    "page-header",
-    "product-tile",
-    "archive-header"
-  ],
+  "patterns": ["product-grid", "page-header", "product-tile", "archive-header"],
   "settings": {
     "appearanceTools": true,
     "color": {
@@ -836,7 +828,7 @@
       "background": "var(--wp--preset--color--base-2)",
       "text": "var(--wp--preset--color--contrast)"
     },
-    "css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}:where(.wp-site-blocks);",
+    "css": "main{ min-height:calc(100vh - 24rem);} .underline{text-decoration:underline !important;}",
     "elements": {
       "button": {
         ":active": {
