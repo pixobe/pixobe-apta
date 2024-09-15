@@ -122,30 +122,14 @@
           "slug": "base-2"
         },
         {
-          "color": "#c4c5d0",
-          "name": "Base / Three",
-          "slug": "base-3"
-        },
-
-        {
-          "color": "#1e1e1e",
+          "color": "#000000",
           "name": "Contrast",
           "slug": "contrast"
         },
         {
-          "color": "#060023",
-          "name": "Contrast / One",
-          "slug": "contrast-1"
-        },
-        {
-          "color": "#353e43",
+          "color": "#1E1E1E",
           "name": "Contrast / Two",
           "slug": "contrast-2"
-        },
-        {
-          "color": "#868686",
-          "name": "Contrast / Three",
-          "slug": "contrast-3"
         },
         {
           "color": "#60a5fa",
@@ -214,7 +198,7 @@
               "fontFamily": "Inter",
               "fontStretch": "normal",
               "fontStyle": "normal",
-              "fontWeight": "400 600",
+              "fontWeight": "400 500",
               "src": [
                 "file:./assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2"
               ]
@@ -229,17 +213,9 @@
             {
               "fontFamily": "Garamond",
               "fontStyle": "normal",
-              "fontWeight": "400",
+              "fontWeight": "500",
               "src": [
                 "file:./assets/fonts/EB_Garamond/static/EBGaramond-Regular.ttf"
-              ]
-            },
-            {
-              "fontFamily": "Garamond",
-              "fontStyle": "normal",
-              "fontWeight": "600",
-              "src": [
-                "file:./assets/fonts/EB_Garamond/static/EBGaramond-Medium.ttf"
               ]
             }
           ],
@@ -268,16 +244,16 @@
         {
           "fluid": false,
           "name": "Medium",
-          "size": "1.05rem",
+          "size": "1.0rem",
           "slug": "medium"
         },
         {
           "fluid": {
-            "max": "1.3rem",
+            "max": "1.265rem",
             "min": "1.2rem"
           },
           "name": "Large",
-          "size": "1.3rem",
+          "size": "1.27rem",
           "slug": "large"
         },
         {
@@ -797,8 +773,7 @@
         },
         "typography": {
           "fontSize": "var(--wp--preset--font-size--medium)",
-          "fontWeight": "400",
-          "lineHeight": "1.875rem"
+          "lineHeight": "30px"
         }
       },
       "core/site-title": {
@@ -826,7 +801,7 @@
       "background": "var(--wp--preset--color--base-2)",
       "text": "var(--wp--preset--color--contrast)"
     },
-    "css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}:where(.wp-site-blocks) > *{margin-block-start: 0;margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 0;}",
+    "css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}:where(.wp-site-blocks)",
     "elements": {
       "button": {
         ":active": {
@@ -890,6 +865,7 @@
       },
       "h1": {
         "typography": {
+          "fontFamily": "var(--wp--preset--font-family--heading)",
           "fontSize": "var(--wp--preset--font-size--xx-large)",
           "letterSpacing": "0.15rem",
           "lineHeight": "1.15"
@@ -897,22 +873,15 @@
       },
       "h2": {
         "typography": {
-          "fontSize": "var(--wp--preset--font-size--x-large)",
-          "fontFamily": "body",
-          "fontWeight": "600"
+          "fontSize": "var(--wp--preset--font-size--x-large)"
         }
       },
       "h3": {
-        "typography": {
-          "fontSize": "var(--wp--preset--font-size--large)",
-          "fontFamily": "body",
-          "fontWeight": "600"
+        "color": {
+          "text": "var(--wp--preset--color--contrast-2)"
         },
-        "spacing": {
-          "margin": {
-            "top": "var(--wp--preset--spacing--50)",
-            "bottom": "var(--wp--preset--spacing--50)"
-          }
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--large)"
         }
       },
       "h4": {
@@ -938,8 +907,8 @@
           "text": "var(--wp--preset--color--contrast)"
         },
         "typography": {
-          "fontFamily": "var(--wp--preset--font-family--heading)",
-          "fontWeight": "400",
+          "fontFamily": "var(--wp--preset--font-family--body)",
+          "fontWeight": "600",
           "lineHeight": "1.2"
         }
       },

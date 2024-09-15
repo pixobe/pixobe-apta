@@ -19,6 +19,7 @@
         <h3 class="wp-block-heading">Product Heading</h3>
         <!-- /wp:heading -->
 
+
         <!-- wp:paragraph {"fontSize":"medium"} -->
         <p class="has-small-font-size">This is short description about the product.</p>
         <!-- /wp:paragraph -->
