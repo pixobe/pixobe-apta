@@ -19,12 +19,8 @@
 
 		<!-- wp:site-tagline {"tagName":"main","level":1,"textAlign":"center", "fontFamily":"heading","fontSize":"x-large","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}}} /-->
 
-		<!-- wp:spacer {"height":"25px"} -->
-		<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
-
-		<!-- wp:heading {"level":2,"textAlign":"center","fontSize":"large" ,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}}} -->
-		<h2 class="wp-block-heading has-text-align-center has-large-font-size" style="font-style:normal;font-weight:400;line-height:1.2">
+		<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"large"} -->
+		<h2 class="wp-block-heading has-text-align-center has-large-font-size" style="font-style:normal;font-weight:400">
 			<?php echo esc_html(get_post_meta(get_the_ID(), "tagline", true)); ?>
 		</h2>
 		<!-- /wp:heading -->
@@ -35,7 +31,7 @@
 
 		<!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
 		<div class="wp-block-group">
-			<!-- wp:site-logo {"width":240 } /-->
+			<!-- wp:site-logo {"width":120 } /-->
 		</div>
 		<!-- /wp:group -->
 

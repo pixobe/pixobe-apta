@@ -43,7 +43,7 @@
           "slug": "duotone-4"
         },
         {
-          "colors": ["#353e43", "#c4c5d0"],
+          "colors": ["#565656", "#565656"],
           "name": "Black and pastel blue",
           "slug": "duotone-5"
         }
@@ -132,6 +132,11 @@
           "slug": "contrast-2"
         },
         {
+          "color": "#565656",
+          "name": "Contrast / Three",
+          "slug": "contrast-3"
+        },
+        {
           "color": "#60a5fa",
           "name": "Accent",
           "slug": "accent"
@@ -145,16 +150,6 @@
           "color": "#ea580c",
           "name": "Accent / Three",
           "slug": "accent-3"
-        },
-        {
-          "color": "#1E1E1E",
-          "name": "Code / Text",
-          "slug": "code-text"
-        },
-        {
-          "color": "#F5F5F7",
-          "name": "Code / Background",
-          "slug": "code-background"
         }
       ]
     },
@@ -364,8 +359,8 @@
           "radius": "var(--wp--preset--spacing--5)"
         },
         "color": {
-          "background": "var(--wp--preset--color--code-background)",
-          "text": "var(--wp--preset--color--code-text)"
+          "background": "var(--wp--preset--color--base)",
+          "text": "var(--wp--preset--color--contrast-2)"
         },
         "spacing": {
           "padding": {

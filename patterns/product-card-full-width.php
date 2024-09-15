@@ -5,6 +5,7 @@
  * Slug: apta/product-full
  * Categories: products, cards
  * Description:  A wide product display
+ * Block Types: apta/product-full
  */
 ?>
 
@@ -15,13 +16,12 @@
 
     <!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
     <div class="wp-block-group has-base-2-color has-text-color has-link-color"><!-- wp:site-logo {"width":32} /-->
-
         <!-- wp:site-title {"level":2,"textAlign":"center","fontSize":"x-large"} /-->
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:heading {"textAlign":"center","level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}}},"textColor":"accent-3"} -->
-    <h3 class="wp-block-heading has-text-align-center has-accent-3-color has-text-color has-link-color">Product Name</h3>
+    <!-- wp:heading {"textAlign":"center","level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}}},"textColor":"accent-3","className":"glow"} -->
+    <h3 class="wp-block-heading has-text-align-center has-accent-3-color has-text-color has-link-color glow">Product Name</h3>
     <!-- /wp:heading -->
 
     <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->

@@ -11,11 +11,11 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"large"} -->
-    <h3 class="wp-block-heading has-large-font-size"></h3>
+    <h3 class="wp-block-heading has-large-font-size"> How many days are there in a week?</h3>
     <!-- /wp:heading -->
 
     <!-- wp:paragraph -->
-    <p></p>
+    <p>It depends on where you live on the earth, some countries have 4 while others have 8 or more.</p>
     <!-- /wp:paragraph -->
 
     <!-- wp:separator {"className":"is-style-wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"backgroundColor":"base-4"} -->
