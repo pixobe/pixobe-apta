@@ -26,7 +26,7 @@ $tag_ids_csv = implode(',', $tag_ids);
     </h2>
     <!-- /wp:heading -->
 
-    <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":"0","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false,"taxQuery":{"post_tag":[<?php echo $tag_ids_csv; ?>],"category":[]}},"layout":{"type":"constrained"}} -->
+    <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":"0","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[<?php echo get_the_ID(); ?>],"sticky":"exclude","inherit":false,"taxQuery":{"post_tag":[<?php echo $tag_ids_csv; ?>],"category":[]}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-query"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|50","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
         <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--10);padding-right:0;padding-bottom:var(--wp--preset--spacing--50);padding-left:0"><!-- wp:post-template {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default","columnCount":1}} -->
             <!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} -->
