@@ -8,8 +8,8 @@
  */
 ?>
 
-<!-- wp:group {"className":"has-background has-contrast-background-color has-text-color has-base-color","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
-<div class="wp-block-group has-background has-contrast-background-color has-text-color has-base-color"><!-- wp:spacer {"height":"50px"} -->
+<!-- wp:group {"className":"has-background has-contrast-background-color has-text-color has-base-color is-product-card-dark","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
+<div class="wp-block-group is-product-card-dark has-background has-contrast-background-color has-text-color has-base-color "><!-- wp:spacer {"height":"50px"} -->
     <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
@@ -35,16 +35,21 @@
 
     <!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-group"><!-- wp:buttons -->
-        <div class="wp-block-buttons"><!-- wp:button -->
-            <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">
+        <div class="wp-block-buttons">
+            <!-- wp:button -->
+            <div class="wp-block-button">
+                <a class="wp-block-button__link wp-element-button">
                     Explore
-                </a></div>
+                </a>
+            </div>
             <!-- /wp:button -->
 
             <!-- wp:button {"className":"is-style-outline"} -->
-            <div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button">
+            <div class="wp-block-button is-style-outline">
+                <a class="wp-block-button__link wp-element-button">
                     Explore
-                </a></div>
+                </a>
+            </div>
             <!-- /wp:button -->
         </div>
         <!-- /wp:buttons -->

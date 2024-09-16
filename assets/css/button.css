@@ -1,11 +1,18 @@
+.is-product-card-dark
+  .wp-block-button
+  > .wp-block-button__link:not(.has-text-color, .has-background):hover,
 .wp-block-button
   > .wp-block-button__link:not(.has-text-color, .has-background):hover {
   background-color: var(
-    --wp--preset--color--accent-2,
+    --wp--preset--color--accent-1,
     var(--wp--preset--color--accent, transparent)
   );
   color: var(--wp--preset--color--base);
 }
+
+.is-product-card-dark
+  .wp-block-button.is-style-outline
+  > .wp-block-button__link:not(.has-text-color, .has-background):hover,
 .wp-block-button.is-style-outline
   > .wp-block-button__link:not(.has-text-color, .has-background):hover {
   background-color: var(
@@ -13,6 +20,27 @@
     var(--wp--preset--color--accent, transparent)
   );
   color: var(--wp--preset--color--base);
+  border-color: var(
+    --wp--preset--color--accent-2,
+    var(--wp--preset--color--accent, currentColor)
+  );
+}
+
+.is-product-card-dark
+  .wp-block-button
+  > .wp-block-button__link:not(.has-text-color, .has-background) {
+  background-color: var(
+    --wp--preset--color--accent-2,
+    var(--wp--preset--color--accent, transparent)
+  );
+  color: var(--wp--preset--color--base);
+}
+
+.is-product-card-dark
+  .wp-block-button.is-style-outline
+  > .wp-block-button__link:not(.has-text-color, .has-background) {
+  background-color: transparent;
+  color: var(--wp--preset--color--accent-2);
   border-color: var(
     --wp--preset--color--accent-2,
     var(--wp--preset--color--accent, currentColor)

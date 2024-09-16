@@ -9,8 +9,8 @@
  */
 ?>
 
-<!-- wp:group {"metadata":{"categories":["products","cards"],"patternName":"apta/product-full","name":"Product Full"},"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-contrast-background-color has-background"><!-- wp:spacer -->
+<!-- wp:group {"metadata":{"categories":["products","cards"],"patternName":"apta/product-full","name":"Product Full"},"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"backgroundColor":"contrast","layout":{"type":"constrained"},"className":"is-product-card-dark"} -->
+<div class="wp-block-group has-contrast-background-color has-background  is-product-card-dark "><!-- wp:spacer -->
     <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
