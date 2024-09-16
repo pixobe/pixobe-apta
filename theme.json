@@ -198,29 +198,7 @@
     "typography": {
       "defaultFontSizes": false,
       "fluid": true,
-      "fontFamilies": [
-        {
-          "fontFace": [],
-          "fontFamily": "\"Inter\", sans-serif",
-          "name": "Inter",
-          "slug": "body"
-        },
-        {
-          "fontFace": [
-            {
-              "fontFamily": "Garamond",
-              "fontStyle": "normal",
-              "fontWeight": "500",
-              "src": [
-                "file:./assets/fonts/EB_Garamond/static/EBGaramond-Regular.ttf"
-              ]
-            }
-          ],
-          "fontFamily": "Garamond",
-          "name": "Garamond",
-          "slug": "heading"
-        }
-      ],
+      "fontFamilies": [],
       "fontSizes": [
         {
           "fluid": false,
