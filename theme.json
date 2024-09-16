@@ -817,10 +817,11 @@
           }
         },
         "typography": {
-          "fontFamily": "var(--wp--preset--font-family--body)",
+          "fontFamily": "var(--wp--preset--font-family--heading)",
           "fontSize": "1.2rem",
           "fontStyle": "normal",
-          "fontWeight": "600"
+          "fontWeight": "600",
+          "letterSpacing": "0.15rem"
         }
       }
     },
