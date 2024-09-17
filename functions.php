@@ -32,7 +32,11 @@ if (! function_exists('pixobeapta_block_stylesheets')) :
         );
     }
 endif;
-add_action('enqueue_block_assets', 'pixobeapta_block_stylesheets');
+
+
+add_action('init', 'pixobeapta_block_stylesheets');
+
+
 if (! function_exists('pixobe_theme_setup')) :
     function pixobe_theme_setup()
     {

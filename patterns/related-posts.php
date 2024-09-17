@@ -10,6 +10,7 @@
 ?>
 
 <?php
+echo get_the_ID();
 $tags = wp_get_post_tags(get_the_ID());
 $tag_ids = array();
 foreach ($tags as $tag) {
