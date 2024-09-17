@@ -17,7 +17,7 @@
     <div class="wp-block-group">
         <!-- wp:heading {"className":"has-text-color has-contrast-color"} -->
         <h2 class="wp-block-heading has-text-color has-contrast-color">
-            Product Title Here
+            Graphic Designer
         </h2>
         <!-- /wp:heading -->
     </div>
@@ -27,7 +27,7 @@
     <div class="wp-block-group">
         <!-- wp:heading {"level":3,"className":" has-text-color has-contrast-color","textColor":"contrast","fontSize":"large"} -->
         <h3 class="wp-block-heading has-text-color has-contrast-color has-large-font-size">
-            Product Tag Line
+            Users can create stunning cards, custom products, memes and more
         </h3>
         <!-- /wp:heading -->
     </div>
@@ -37,13 +37,13 @@
     <div class="wp-block-group"><!-- wp:buttons -->
         <div class="wp-block-buttons"><!-- wp:button -->
             <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">
-                    Explore
+                    Design Now
                 </a></div>
             <!-- /wp:button -->
 
             <!-- wp:button {"className":"is-style-outline"} -->
             <div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button">
-                    Explore
+                    Watch Demo
                 </a></div>
             <!-- /wp:button -->
         </div>

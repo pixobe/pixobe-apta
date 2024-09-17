@@ -21,7 +21,7 @@
 
 		<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"medium"} -->
 		<h2 class="wp-block-heading has-text-align-center has-medium-font-size has-text-color has-contrast-3-color" style="font-style:normal;font-weight:400">
-			<?php echo esc_html(get_post_meta(get_the_ID(), "tagline", true)); ?>
+			<?php echo esc_html(get_post_meta(get_the_ID(), 'tagline', true)); ?>
 		</h2>
 		<!-- /wp:heading -->
 

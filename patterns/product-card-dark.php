@@ -18,7 +18,7 @@
     <div class="wp-block-group">
         <!-- wp:heading {"className":"has-text-color has-base-color"} -->
         <h2 class="wp-block-heading has-text-color has-base-color">
-            Product Title
+            Coloring Book
         </h2>
         <!-- /wp:heading -->
     </div>
@@ -33,7 +33,7 @@
     <div class="wp-block-group">
         <!-- wp:heading {"level":3,"className":"has-base-color","textColor":"base-2","fontSize":"large"} -->
         <h3 class="wp-block-heading has-base-color has-base-2-color has-text-color has-large-font-size">
-            Product Tag Line
+            Transform your website into a coloring book
         </h3>
         <!-- /wp:heading -->
     </div>
@@ -49,7 +49,7 @@
             <!-- wp:button -->
             <div class="wp-block-button">
                 <a class="wp-block-button__link wp-element-button">
-                    Explore
+                    Color Now
                 </a>
             </div>
             <!-- /wp:button -->
@@ -57,7 +57,7 @@
             <!-- wp:button {"className":"is-style-outline"} -->
             <div class="wp-block-button is-style-outline">
                 <a class="wp-block-button__link wp-element-button">
-                    Explore
+                    Watch Demo
                 </a>
             </div>
             <!-- /wp:button -->
