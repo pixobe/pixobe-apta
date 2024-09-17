@@ -14,28 +14,23 @@
 
     <!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-group"><!-- wp:heading {"className":"has-text-color has-base-color"} -->
-        <h2 class="wp-block-heading has-text-color has-base-color">
+        <h2 class="wp-block-heading has-text-color has-base-color has-x-large-font-size">
             Coloring Book
         </h2>
         <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:spacer {"height":"25px"} -->
-    <div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
-    <!-- /wp:spacer -->
-
     <!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
-    <div class="wp-block-group"><!-- wp:heading {"level":3,"className":"has-base-color","textColor":"base-2","fontSize":"large"} -->
-        <h3 class="wp-block-heading has-base-color has-base-2-color has-text-color has-large-font-size">
-            Transform your website into a coloring book
-        </h3>
-        <!-- /wp:heading -->
+    <div class="wp-block-group">
+        <!-- wp:paragraph -->
+        <p class="has-text-color has-base-color">Turn your website into coloring book</p>
+        <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:spacer {"height":"25px"} -->
-    <div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- wp:spacer {"height":var:preset|spacing|5} -->
+    <div style="height:var(--wp--preset--spacing--5)" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
     <!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
