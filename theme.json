@@ -152,6 +152,26 @@
           "color": "#ea580c",
           "name": "Accent / Three",
           "slug": "accent-3"
+        },
+        {
+          "color": "#fbbf24",
+          "name": "Tag / One",
+          "slug": "tag-1"
+        },
+        {
+          "color": "#2dd4bf",
+          "name": "Tag / Two",
+          "slug": "tag-2"
+        },
+        {
+          "color": "#22d3ee",
+          "name": "Tag / Three",
+          "slug": "tag-3"
+        },
+        {
+          "color": "#34d399",
+          "name": "Tag / Four",
+          "slug": "tag-4"
         }
       ]
     },
@@ -162,6 +182,11 @@
     "spacing": {
       "defaultSpacingSizes": false,
       "spacingSizes": [
+        {
+          "name": "0.2",
+          "size": "0.2rem",
+          "slug": "2"
+        },
         {
           "name": "0.5",
           "size": "0.5rem",
