@@ -9,7 +9,8 @@
 ?>
 
 <!-- wp:group {"className":"has-background has-contrast-background-color has-text-color has-base-color is-product-card-dark","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
-<div class="wp-block-group is-product-card-dark has-background has-contrast-background-color has-text-color has-base-color "><!-- wp:spacer {"height":"50px"} -->
+<div class="wp-block-group is-product-card-dark has-background has-contrast-background-color has-text-color has-base-color ">
+    <!-- wp:spacer {"height":"50px"} -->
     <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
@@ -23,6 +24,11 @@
     </div>
     <!-- /wp:group -->
 
+
+    <!-- wp:spacer {"height":"25px"} -->
+    <div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+
     <!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-group">
         <!-- wp:heading {"level":3,"className":"has-base-color","textColor":"base-2","fontSize":"large"} -->
@@ -32,6 +38,10 @@
         <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
+
+    <!-- wp:spacer {"height":"25px"} -->
+    <div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
 
     <!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-group"><!-- wp:buttons -->

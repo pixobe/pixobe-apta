@@ -859,7 +859,7 @@
           "fontFamily": "var(--wp--preset--font-family--heading)",
           "fontSize": "var(--wp--preset--font-size--xx-large)",
           "letterSpacing": "0.15rem",
-          "lineHeight": "1.15"
+          "lineHeight": "1.5"
         }
       },
       "h2": {

@@ -32,5 +32,14 @@ if (! function_exists('pixobeapta_block_stylesheets')) :
         );
     }
 endif;
-
-add_action('init', 'pixobeapta_block_stylesheets');
+add_action('enqueue_block_assets', 'pixobeapta_block_stylesheets');
+if (! function_exists('pixobe_theme_setup')) :
+    function pixobe_theme_setup()
+    {
+        wp_enqueue_style(
+            'pixobe_theme_style',
+            get_template_directory_uri() . '/assets/css/main.css'
+        );
+    }
+endif;
+add_action('wp_enqueue_scripts', 'pixobe_theme_setup');
