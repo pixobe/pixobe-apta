@@ -808,7 +808,7 @@
           "fontFamily": "var(--wp--preset--font-family--heading)",
           "fontSize": "1.2rem",
           "fontStyle": "normal",
-          "fontWeight": "600",
+          "fontWeight": "500",
           "letterSpacing": "0.1rem"
         }
       }
@@ -883,14 +883,18 @@
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--heading)",
           "fontSize": "var(--wp--preset--font-size--xx-large)",
-          "letterSpacing": "0.15rem",
-          "lineHeight": "1.5"
+          "letterSpacing": "0.1rem"
+        },
+        "spacing": {
+          "margin": {
+            "bottom": "var(--wp--preset--spacing--20)",
+            "top": "var(--wp--preset--spacing--20)"
+          }
         }
       },
       "h2": {
         "typography": {
-          "fontSize": "var(--wp--preset--font-size--x-large)",
-          "lineHeight": "1.5"
+          "fontSize": "var(--wp--preset--font-size--x-large)"
         }
       },
       "h3": {
@@ -903,20 +907,17 @@
       },
       "h4": {
         "typography": {
-          "fontSize": "clamp(1.1rem, 1.1rem + ((1vw - 0.2rem) * 0.767), 1.5rem)",
-          "fontFamily": "body"
+          "fontSize": "clamp(1.1rem, 1.1rem + ((1vw - 0.2rem) * 0.767), 1.5rem)"
         }
       },
       "h5": {
         "typography": {
-          "fontSize": "var(--wp--preset--font-size--medium)",
-          "fontFamily": "body"
+          "fontSize": "var(--wp--preset--font-size--medium)"
         }
       },
       "h6": {
         "typography": {
-          "fontSize": "var(--wp--preset--font-size--small)",
-          "fontFamily": "body"
+          "fontSize": "var(--wp--preset--font-size--small)"
         }
       },
       "heading": {
@@ -927,6 +928,12 @@
           "fontFamily": "var(--wp--preset--font-family--body)",
           "fontWeight": "600",
           "lineHeight": "1.2"
+        },
+        "spacing": {
+          "margin": {
+            "bottom": "var(--wp--preset--spacing--10)",
+            "top": "var(--wp--preset--spacing--10)"
+          }
         }
       },
       "link": {

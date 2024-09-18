@@ -14,8 +14,8 @@
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
 
-    <!-- wp:heading {"level":2} -->
-    <h2 class="wp-block-heading">Frequently asked questions</h2>
+    <!-- wp:heading {"level":2,"fontSize":"x-large"} -->
+    <h2 class="wp-block-heading has-x-large-font-size">Frequently asked questions</h2>
     <!-- /wp:heading -->
 
     <!-- wp:spacer {"height":"1px"} -->

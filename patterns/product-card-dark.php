@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Title: Product Card
+ * Title: Product Card Dark
  * Slug: apta/product-card-dark
  * Categories: products, cards
  * Description: A Header, tag line and image that blends
@@ -23,14 +23,16 @@
 
     <!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-group">
-        <!-- wp:paragraph -->
-        <p class="has-text-color has-base-color">Turn your website into coloring book</p>
-        <!-- /wp:paragraph -->
+        <!-- wp:heading {"level":3 ,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}}  -->
+        <h3 class="wp-block-heading has-font-weight-normal has-font-style-normal has-text-color has-base-color">
+            Turn your website into coloring book
+        </h3>
+        <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:spacer {"height":var:preset|spacing|5} -->
-    <div style="height:var(--wp--preset--spacing--5)" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- wp:spacer {"height":"0.5rem"} -->
+    <div style="height:0.5rem" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
     <!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->

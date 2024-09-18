@@ -11,7 +11,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group">
+<div class="wp-block-group wp-post-content">
     <!-- wp:post-content {"layout":{"type":"constrained"}} /-->
 </div>
 <!-- /wp:group -->

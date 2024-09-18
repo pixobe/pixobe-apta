@@ -8,8 +8,8 @@
  */
 ?>
 
-<!-- wp:group {"className":"has-background has-base-background-color has-text-color has-contrast-color","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
-<div class="wp-block-group has-background has-base-background-color has-text-color has-contrast-2-color"><!-- wp:spacer {"height":"50px"} -->
+<!-- wp:group {"className":"has-background has-base-background-color has-text-color has-contrast-color is-product-card-light","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
+<div class="wp-block-group has-background has-base-background-color has-text-color has-contrast-2-color is-product-card-light"><!-- wp:spacer {"height":"50px"} -->
     <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
@@ -25,14 +25,16 @@
 
     <!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-group">
-        <!-- wp:paragraph -->
-        <p>Canvas editor for your frontend</p>
-        <!-- /wp:paragraph -->
+        <!-- wp:heading {"level":3 ,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
+        <h3 class="wp-block-heading has-font-weight-normal has-font-style-normal">
+            Canvas editor for Frontend
+        </h3>
+        <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:spacer {"height":var:preset|spacing|5} -->
-    <div style="height:var(--wp--preset--spacing--5)" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- wp:spacer {"height":"0.5rem"} -->
+    <div style="height:0.5rem" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
     <!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
