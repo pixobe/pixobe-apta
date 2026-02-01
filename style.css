@@ -13,3 +13,36 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: apta
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
+
+main {
+  min-height: calc(100vh - 24rem);
+}
+.underline {
+  text-decoration: underline !important;
+}
+.hero-latest-apps a {
+  text-decoration: none !important;
+}
+.hero-latest-apps a:focus,
+.hero-latest-apps a:hover {
+  text-decoration: underline;
+}
+.p-wpcustomize-button {
+  all: reset;
+  margin: 4px 0;
+  --p-btn-background: oklch(62.3% 0.214 259.815);
+  --p-btn-text: #fff;
+  --p-btn-hover-background: oklch(54.6% 0.245 262.881);
+  --p-btn-hover-text: #fff;
+  --p-btn-radius: 8px;
+  --p-btn-border: 1px solid rgba(0, 0, 0, 0.15);
+  --p-btn-width: 100%;
+  --p-btn-padding: 10px 12px;
+}
+.pixobe-product-designer-pager .product_meta,
+.pixobe-product-designer-pager .quantity,
+.pixobe-product-designer-pager .related.products,
+.pixobe-product-designer-pager .single_add_to_cart_button,
+.pixobe-product-designer-pager .woocommerce-tabs {
+  display: none !important;
+}
